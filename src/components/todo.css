@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.inputbox {
+  display: flex;
+}
+.inputbox .textbox {
+  width: 400px;
+  padding: 10px 5px;
+  background-color: white;
+  border: none;
+  color: black;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 0 10px;
+  font-size: 18px;
+}
+.inputbox button {
+  width: 100px;
+
+  border: none;
+  cursor: pointer;
+}
+.inputbox button:hover {
+  background-color: rgb(93, 93, 93);
+}
+.item {
+  color: black;
+  padding: 0 10px;
+}
+.item .eachitem {
+  background-color: white;
+  padding: 10px 5px;
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+.item .eachitem button {
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
