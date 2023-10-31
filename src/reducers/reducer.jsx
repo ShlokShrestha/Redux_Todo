@@ -1,7 +1,6 @@
 const initialData = {
   text: [],
 };
-
 const reducer = (state = initialData, action) => {
   switch (action.type) {
     case "ADD_TODO":
